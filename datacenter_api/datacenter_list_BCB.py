@@ -7,9 +7,7 @@ from requests.packages.urllib3.exceptions import InsecureRequestWarning
 
 api_url = 'https://bcb-hci-vcs-001.ahs.cos.lan/rest'
 api_user = 'cganiratho@ahs.cos.lan'
-#api_user = 'administrator@vsphere.local'
-#api_pass = 'Nutanix/4u'
-api_pass = 'Gears3@2017'
+api_pass = ''
 
 def main():
     requests.packages.urllib3.disable_warnings(InsecureRequestWarning) #Disable SSL warnings

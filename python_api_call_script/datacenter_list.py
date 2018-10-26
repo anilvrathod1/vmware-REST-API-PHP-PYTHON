@@ -5,9 +5,9 @@ from requests.auth import HTTPBasicAuth
 import json
 from requests.packages.urllib3.exceptions import InsecureRequestWarning
 
-api_url = 'https://bcb-hci-vcs-001.ahs.cos.lan/rest'
-api_user = 'administrator@vsphere.local'
-api_pass = 'Nutanix/4u'
+api_url = 'https://bcb-hci-vc-001.ahs.cos.lan/rest'
+api_user = 'adminir@vsphere.local'
+api_pass = ''
 
 def main():
     requests.packages.urllib3.disable_warnings(InsecureRequestWarning) #Disable SSL warnings
