@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" contrnt="width=device-width, initial-scale=1" />
+	<title> REST API TEST </title>
+	<link rel="stylesheet" href="css/style.css">
+
+</head>
+<body> 
+	<header>
+		<h1> JSON and AJAX and REST API with PHP </h1>
+		<input type="text" name="cluster><br>
+		<button id="btn"> Fetch Data </button>
+	</header>
+
+	<div id="animal-info"> </div>
+
+	<script src="main.js"> </script>
+</body>
+</html>

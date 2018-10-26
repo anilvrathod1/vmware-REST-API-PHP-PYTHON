@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+</head>
+<script type="text/javascript">
+
+<?php
+$command = escapeshellcmd(' /usr/local/bin/python /var/www/html/test/api/cluster_list.py');
+$output = shell_exec($command);
+?>
+<script type="text/javascript">
+var data = <?php echo json_encode($output); ?>;
+console.log(data["value"]);
+</script>
+
+
